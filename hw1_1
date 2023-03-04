@@ -1,0 +1,17 @@
+<!DOCTYPE html> <!-- 告訴瀏覽器使用的 HTML 版本 -->
+<html lang="en"> <!-- 設定語言為英文 -->
+<head> <!-- 網頁的標頭 -->
+    <meta charset="UTF-8"> <!-- 設定文件編碼為 UTF-8 -->
+    <meta name="viewport" content="width=device-width"> <!-- 設定大小為螢幕寬度 -->
+    <title>Foodpanda Waiting Page</title> <!-- 設定網頁標題 -->
+    <link rel="stylesheet" href="hw1_style.css"> <!-- 引用 CSS 樣式表 -->
+</head>
+<body> <!-- 網頁的主要內容 -->
+    <h1>Your food is died, please wait</h1> <!-- 網頁主標題 -->
+    <img src="foodpanda.jpg" alt="foodpanda"> <!-- 圖片標籤，顯示 foodpanda.jpg 的圖片 -->
+    <h2>You can try to refresh the page or close the page</h2> <!-- 次標題 -->
+    <Input id="refresh" type="Button" Value="refresh the page" onclick="window.location.reload()" style="width:120px; height:30px;"> <!-- 按鈕，當點擊時重新載入頁面 -->
+    <input id="close" type="button" value="close the page" style="width:120px; height:30px;"> <!-- 按鈕，當點擊時關閉頁面 -->
+    <script src="hw1_main.js"></script> <!-- 引用 JavaScript 文件 -->
+</body>
+</html> <!-- HTML 文件結束標籤 -->
