@@ -1,0 +1,27 @@
+html {
+    /* 使用指定字體，如果無法加載則依次使用後面的備選字體 */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    height: 100%; /* 將 HTML 根元素高度設置為 100% */
+    background-color: #b01c56; /* 設置網頁背景顏色 */
+}
+
+h1{
+    padding: 20px 0; /* 設置上下 20 像素、左右 0 像素的內邊距 */
+    color: white; /* 設置字體顏色為白色 */
+    font-size: 60px; /* 設置字體大小為 60 像素 */
+    text-align: center; /* 將文字置中對齊 */
+    text-shadow: 3px 3px 1px black; /* 設置文字陰影，水平和垂直偏移量為 3 像素，模糊半徑為 1 像素 */
+}
+
+h2{
+    padding: 20px 0; /* 設置上下 20 像素、左右 0 像素的內邊距 */
+    color: white; /* 設置字體顏色為白色 */
+    font-size: 25px; /* 設置字體大小為 25 像素 */
+    text-align: center; /* 將文字置中對齊 */
+    text-shadow: 2px 2px 1px black; /* 設置文字陰影，水平和垂直偏移量為 2 像素，模糊半徑為 1 像素 */
+}
+
+img{
+    display: block; /* 設置圖片顯示為區塊元素 */
+    margin: 0 auto; /* 設置圖片水平置中對齊 */
+}
